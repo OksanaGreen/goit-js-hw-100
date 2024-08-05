@@ -23,3 +23,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
