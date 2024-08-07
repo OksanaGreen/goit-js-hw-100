@@ -23,8 +23,23 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.cotainer {
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.timer {
+  width: 346px;
+  height: 72px;
+  margin-top: 108px;
+  margin-left: 156px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.field {
+}
 .value {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
 }
