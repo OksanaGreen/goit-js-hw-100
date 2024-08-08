@@ -4,40 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Page 2</title>
-    <script type="module" crossorigin src="/goit-js-hw-100/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-100/assets/vendor-4re2sZo0.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-100/assets/vendor-BArvkMiJ.css">
+    <script type="module" crossorigin src="/goit-js-hw-100/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-100/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-100/assets/vendor-BbSUbo7J.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-100/assets/vendor-C1gPI-5C.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-100/assets/styles2-DU4irQK4.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 2</h1>
+      <h1></h1>
     </section>
-    <div class="cotainer">
-      <input type="text" id="datetime-picker" />
-      <button type="button" data-start>Start</button>
-
-      <div class="timer">
-        <div class="field">
-          <span class="value" data-days>00</span>
-          <span class="label">Days</span>
-        </div>
-        <div class="field">
-          <span class="value" data-hours>00</span>
-          <span class="label">Hours</span>
-        </div>
-        <div class="field">
-          <span class="value" data-minutes>00</span>
-          <span class="label">Minutes</span>
-        </div>
-        <div class="field">
-          <span class="value" data-seconds>00</span>
-          <span class="label">Seconds</span>
-        </div>
+    <div class="time2">
+      <input type="text" id="datetime-picker" class="time1" />
+      <button type="button" data-start class="time1">Start</button>
+    </div>
+    <div class="timer time2">
+      <div class="field">
+        <span class="value time" data-days>00</span>
+        <span class="label time1">Days</span>
+      </div>
+      <div class="field">
+        <span class="value time" data-hours>00</span>
+        <span class="label time1">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value time" data-minutes>00</span>
+        <span class="label time1">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value time" data-seconds>00</span>
+        <span class="label time1">Seconds</span>
       </div>
     </div>
-
   </body>
 </html>
