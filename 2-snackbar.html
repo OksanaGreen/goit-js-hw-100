@@ -4,13 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Page 3</title>
-    <script type="module" crossorigin src="/goit-js-hw-100/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-100/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-100/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-100/assets/vendor-BbSUbo7J.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-100/assets/vendor-C1gPI-5C.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-100/assets/styles3-CzgQVV-u.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
       <h1></h1>
     </section>
+    <form class="form">
+      <label class="label-delay">
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+
+      <fieldset class="frame">
+        <legend class="legend">State</legend>
+        <label class="label-radio">
+          <input type="radio" name="state" value="fulfilled" required />
+          <span> Fulfilled </span>
+        </label>
+        <label class="label-radio">
+          <input type="radio" name="state" value="rejected" required />
+          <span>Rejected</span>
+        </label>
+      </fieldset>
+
+      <button class="btn-start" type="submit">Create notification</button>
+    </form>
+
   </body>
 </html>
