@@ -70,7 +70,7 @@
   border: transparent;
 
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -82,4 +82,12 @@
 
 .btn-start:hover {
   background-color: #519266;
+}
+/* .btn {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 25px;
+} */
+button {
+  cursor: pointer;
 }

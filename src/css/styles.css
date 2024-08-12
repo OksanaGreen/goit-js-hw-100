@@ -23,3 +23,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.btn {
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 20px;
+}
+h1 {
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 20px;
+}
